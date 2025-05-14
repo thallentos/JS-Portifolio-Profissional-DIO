@@ -36,6 +36,10 @@
         "logo": "https://raw.githubusercontent.com/thallentos/Portifolio/refs/heads/main/assets/img/icons/tools/java.png"
       },
       {
+        "name": "Github",
+        "logo": "https://raw.githubusercontent.com/thallentos/Portifolio/refs/heads/main/assets/img/icons/tools/github.png"
+      },
+      {
         "name": "React",
         "logo": "https://raw.githubusercontent.com/thallentos/Portifolio/refs/heads/main/assets/img/icons/tools/react.png"
       },
