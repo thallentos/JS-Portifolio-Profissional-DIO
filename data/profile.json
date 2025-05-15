@@ -57,19 +57,11 @@
       "Organização"
     ]
   },
-  "idiomas": [
-    {
-      "nome": "Português",
-      "nivel": "Nativo"
-    },
-    {
-      "nome": "Inglês",
-      "nivel": "Intermediário"
-    },
-    {
-      "nome": "Espanhol",
-      "nivel": "Básico"
-    }
+  "languages": [
+    "Português BR (nativo)",
+    "Inglês (fluente)",
+    "Espanhol (intermediário baixo)",
+    "Libras (intermediário baixo)"
   ],
   "educacao": [
     {
