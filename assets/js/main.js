@@ -31,10 +31,15 @@ function updateSoftSkills(profileData) {
 function updateHardSkills(profileData) {
   const hardSkills = document.getElementById("profile.skills.hardSkills");
   hardSkills.innerHTML = profileData.skills.hardSkills
-    .map(
-      (skill) =>
-        `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"/></li>`
-    )
+    .map((skill) => {
+      if (skill.name === "MySql") {
+        return `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}" style="background-color:rgb(98, 101, 183); padding: 2px; border-radius: 20%;"/></li>`;
+      } else if (skill.name === "Java") {
+        return `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}" style="background-color:rgb(98, 101, 183); padding: 2px; border-radius: 20%; width: 57%; height: 57%;"/></li>`;
+      } else {
+        return `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"/></li>`;
+      }
+    })
     .join("");
 }
 
