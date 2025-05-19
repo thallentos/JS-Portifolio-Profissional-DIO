@@ -9,43 +9,43 @@
     "hardSkills": [
       {
         "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/thallentos/Portifolio/refs/heads/main/assets/img/icons/tools/js.png"
+        "logo": "https://raw.githubusercontent.com/thallentos/Portifolio/refs/heads/mainassets/img/icons/tools/js.png"
       },
       {
         "name": "Python",
-        "logo": "https://raw.githubusercontent.com/thallentos/Portifolio/refs/heads/main/assets/img/icons/tools/python.png"
+        "logo": "https://raw.githubusercontent.com/thallentos/Portifolio/refs/heads/mainassets/img/icons/tools/python.png"
       },
       {
         "name": "MySql",
-        "logo": "https://raw.githubusercontent.com/thallentos/Portifolio/refs/heads/main/assets/img/icons/tools/mysql.png"
+        "logo": "https://raw.githubusercontent.com/thallentos/Portifolio/refs/heads/mainassets/img/icons/tools/mysql.png"
       },
       {
         "name": "HTML",
-        "logo": "https://raw.githubusercontent.com/thallentos/Portifolio/refs/heads/main/assets/img/icons/tools/html.png"
+        "logo": "https://raw.githubusercontent.com/thallentos/Portifolio/refs/heads/mainassets/img/icons/tools/html.png"
       },
       {
         "name": "CSS",
-        "logo": "https://raw.githubusercontent.com/thallentos/Portifolio/refs/heads/main/assets/img/icons/tools/css.png"
+        "logo": "https://raw.githubusercontent.com/thallentos/Portifolio/refs/heads/mainassets/img/icons/tools/css.png"
       },
       {
         "name": "Git",
-        "logo": "https://raw.githubusercontent.com/thallentos/Portifolio/refs/heads/main/assets/img/icons/tools/git.png"
+        "logo": "https://raw.githubusercontent.com/thallentos/Portifolio/refs/heads/mainassets/img/icons/tools/git.png"
       },
       {
         "name": "Java",
-        "logo": "https://raw.githubusercontent.com/thallentos/Portifolio/refs/heads/main/assets/img/icons/tools/java.png"
+        "logo": "https://raw.githubusercontent.com/thallentos/Portifolio/refs/heads/mainassets/img/icons/tools/java.png"
       },
       {
         "name": "Github",
-        "logo": "https://raw.githubusercontent.com/thallentos/Portifolio/refs/heads/main/assets/img/icons/tools/github.png"
+        "logo": "https://raw.githubusercontent.com/thallentos/Portifolio/refs/heads/mainassets/img/icons/tools/github.png"
       },
       {
         "name": "React",
-        "logo": "https://raw.githubusercontent.com/thallentos/Portifolio/refs/heads/main/assets/img/icons/tools/react.png"
+        "logo": "https://raw.githubusercontent.com/thallentos/Portifolio/refs/heads/mainassets/img/icons/tools/react.png"
       },
       {
         "name": "C#",
-        "logo": "https://raw.githubusercontent.com/thallentos/Portifolio/refs/heads/main/assets/img/icons/tools/csharp.png"
+        "logo": "https://raw.githubusercontent.com/thallentos/Portifolio/refs/heads/mainassets/img/icons/tools/csharp.png"
       }
     ],
     "softSkills": [
@@ -75,17 +75,6 @@
       "url": "https://github.com/thallentos/Pokedex-PokeAPI",
       "github": true,
       "certificado": "https://hermes.dio.me/certificates/ULFVWH0E.pdf"
-    }
-  ],
-  "experiencias": [
-    {
-      "nome": "Education Tech Lead ",
-      "descricao": "",
-      "instituicao": "Digital Innovation One (DIO)",
-      "periodo": {
-        "inicio": "03/2021",
-        "fim": "Atualmente"
-      }
     }
   ]
 }
