@@ -47,7 +47,7 @@ function updateLanguages(profileData) {
   const languages = document.getElementById("profile.languages");
   languages.innerHTML = profileData.languages
     .map((language) => `<li>${languages}</li>`)
-    .join(``);
+    .join("");
 }
 
 function updatePortfolio(profileData) {
