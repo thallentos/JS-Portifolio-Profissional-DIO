@@ -1,7 +1,7 @@
 {
   "name": "Thalles Coelho Marques",
   "photo": "https://media.licdn.com/dms/image/v2/D4D03AQHgVpmWGBk-Tg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1733057766309?e=1752710400&v=beta&t=vT-pZMLfIHpGbVz9EukNpnZDfmqq_BtZcrAC5kcWON8",
-  "job": "Estudante de SI na UVV",
+  "job": "Linkedin",
   "location": "Vila Velha - ES",
   "phone": "(27) 99241-1484",
   "email": "thallescmarques@gmail.com",
@@ -65,15 +65,32 @@
   ],
   "portfolio": [
     {
-      "name": "Criando um Portifólio profissional com JavaScript e API própria",
+      "name": "Criando um Portifólio profissional com JavaScript e API própria (DIO)",
       "url": "https://github.com/thallentos/Portifolio",
       "github": true
     },
     {
-      "name": "Criando uma Pokedex com JavaScript e com a PokeAPI",
+      "name": "Criando uma Pokedex com JavaScript e com a PokeAPI (DIO)",
       "url": "https://github.com/thallentos/Pokedex-PokeAPI",
       "github": true,
       "certificado": "https://hermes.dio.me/certificates/ULFVWH0E.pdf"
+    },
+    {
+      "name": "Mundos 1, 2 e 3 de Python 3 (Curso em Video)",
+      "url": "https://github.com/thallentos/Python3-CursoEmVideo",
+      "github": true,
+      "certificado": "https://www.cursoemvideo.com/validacao-de-certificado/?codigo=D5AAB-685A-7"
+    },
+    {
+      "name": "Material de MySQL (Curso em Video)",
+      "url": "https://github.com/thallentos/BancoDeDados-CursoEmVideo",
+      "github": true,
+      "certificado": "https://www.cursoemvideo.com/validacao-de-certificado/?codigo=D5AAB-6573-5"
+    },
+    {
+      "name": "Material de Java (Curso em Video)",
+      "url": "https://github.com/thallentos/JavaBasico-CursoEmVideo",
+      "github": true
     }
   ]
 }

@@ -7,7 +7,7 @@ function updateProfileInfo(profileData) {
   name.innerText = profileData.name;
 
   const job = document.getElementById("profile.job");
-  job.innerText = profileData.job;
+  job.innerHTML = `<a href="https://www.linkedin.com/in/thalles-marques/">${profileData.job}</a>`;
 
   const location = document.getElementById("profile.location");
   location.innerText = profileData.location;
@@ -49,21 +49,6 @@ function updateLanguages(profileData) {
     .map((language) => `<li>${language}</li>`)
     .join("");
 }
-
-// function updatePortfolio(profileData) {
-//   const portfolio = document.getElementById("profile.portfolio");
-//   portfolio.innerHTML = profileData.portfolio
-//     .map((project) => {
-//       return `
-//         <li>
-//           <h3 ${project.github ? 'class="github"' : ""}>${project.name}</h3>
-//           <b><p>Link do Repositório:</p></b><a href="${project.url}" target="_blank">${project.url}</a>
-//           <b><p>Link do Certificado:</p></b><a href="${project.certificado}" target="_blank">${project.certificado}</a>
-//         </li>
-//       `;
-//     })
-//     .join("");
-// }
 
 function updatePortfolio(profileData) {
   const portfolio = document.getElementById("profile.portfolio");
