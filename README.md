@@ -51,4 +51,4 @@ O projeto é licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para ma
 **Contato**
 ------------
 
-Se você tiver alguma dúvida ou precisar de ajuda, basta entrar em contato comigo pelo e-mail [thallescmarques@gmail.com].
+Se você tiver alguma dúvida ou precisar de ajuda, basta entrar em contato comigo pelo e-mail thallescmarques@gmail.com.
