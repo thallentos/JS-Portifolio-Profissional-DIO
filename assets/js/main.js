@@ -50,6 +50,21 @@ function updateLanguages(profileData) {
     .join("");
 }
 
+// function updatePortfolio(profileData) {
+//   const portfolio = document.getElementById("profile.portfolio");
+//   portfolio.innerHTML = profileData.portfolio
+//     .map((project) => {
+//       return `
+//         <li>
+//           <h3 ${project.github ? 'class="github"' : ""}>${project.name}</h3>
+//           <b><p>Link do Repositório:</p></b><a href="${project.url}" target="_blank">${project.url}</a>
+//           <b><p>Link do Certificado:</p></b><a href="${project.certificado}" target="_blank">${project.certificado}</a>
+//         </li>
+//       `;
+//     })
+//     .join("");
+// }
+
 function updatePortfolio(profileData) {
   const portfolio = document.getElementById("profile.portfolio");
   portfolio.innerHTML = profileData.portfolio
@@ -57,8 +72,8 @@ function updatePortfolio(profileData) {
       return `
         <li>
           <h3 ${project.github ? 'class="github"' : ""}>${project.name}</h3>
-          <a href="${project.url}" target="_blank">${project.url}</a>
-          <a href="${project.certificado}" target="_blank">${project.certificado}</a>
+          <b><p>Link do Repositório:</p></b><a href="${project.url}" target="_blank">${project.url}</a>
+          ${project.certificado ? `<b><p>Link do Certificado:</p></b><a href="${project.certificado}" target="_blank">${project.certificado}</a>` : ``}
         </li>
       `;
     })
