@@ -46,7 +46,7 @@ Para executar o projeto, basta clonar o repositório e abrir o arquivo `index.ht
 **Licença**
 ------------
 
-O projeto é licenciado sob a [Minha License](LICENSEmd)
+O projeto é licenciado sob a [Minha License](LICENSE.md)
 
 **Contato**
 ------------
